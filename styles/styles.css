@@ -14,7 +14,7 @@ main {
     margin-right: calc((100% - 600px) / 2);
 }
 
-header > img {
+div > img {
     height: 80px;
 }
 
