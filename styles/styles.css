@@ -1,23 +1,67 @@
+body {
+    background-color: rgb(243, 241, 241);
+}
+
+body *{
+    color: grey;
+    font-family: 'Consolas', sans-serif;
+    }
+
 header {
-    background-color: blue;
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: calc((100% - 600px) / 2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
 }
 
 main {
-    background-color: blueviolet;
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: calc((100% - 600px) / 2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
 }
 
-div > img {
+header > *{
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    margin-top: 23px;
+}
+
+header > img {
     height: 80px;
 }
 
 main > img {
-    height: 160px;
+    height: 340px;
+}
+
+main >* {
+    display:inline-block;
+    width: 48%;
+}
+
+main > div > h1 {
+    font-size:100px ;
+    margin-block-start: 0.67em;
+    margin-block-end: 0;
+}
+
+main > div > p {
+    font-size:25px ;
+}
+
+.btn{
+    color: gray;
+    text-decoration: none;
+    margin: 12px; 
+}
+
+.signin {
+    border-color: grey;
+    border-style:solid;
+    padding:5px 20px;
+    border-radius:15px;
 }
